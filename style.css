@@ -29,7 +29,15 @@ width: 60%;
 position: relative;
 top: -15px;  
 right: 65px; 
-    }
+ }
+ h4{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;  
+    color:#EB7468;
+    font-size: 52px; 
+    font-weight: 700;
+    text-align: center;
+    padding-right: 3%;    
+ }
 .top-menu{
 background-color: #0D1326;
 width: 100%;
@@ -125,13 +133,15 @@ left: 41%;
 }
 .goahead:hover{
     background-color: rgb(255, 0, 0);
+    transition: 0.5s all cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .text{
     position: absolute;
     top: 85%;
 }
 
-h2{
+h2{ 
+    width:50%;
     position: relative;
       bottom: 50%;
       left: 40%;
@@ -139,6 +149,40 @@ h2{
   color: #EB7468;  
   font-size: 35px;
   font-weight: 500; 
+}
+input{
+    width: 350px;
+    height: 29px;
+    padding: 12.48px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #C0BFBF;
+    font-size: 18px;
+    background-color: #EEE;
+    border: 2px solid #eee;
+    border-radius: 0.3em;
+}
+input:hover{
+    border-color: crimson;
+    transition: 0.5s all ease;
+
+}
+textarea{
+    margin-left: 12%;
+    margin-top: 3%;
+    width: 770px;
+    height: 250px;
+    padding: 12.48px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #C0BFBF;
+    font-size: 18px;
+    background-color: #EEE;
+    border: 2px solid #eee;
+    border-radius: 0.3em;  
+    resize: none; 
+}
+textarea:hover{
+    border-color: crimson;
+    transition: 0.5s all ease;
 }
 .lorem-ipsum{
     padding-right: 30%;
@@ -192,5 +236,136 @@ h2{
     margin-top: 2%;
 }
 .card{
-    
+ width: 525px;   
+ position: relative;
+ float: left;
+padding-right: 30px;
+padding-bottom: 45px;
+}
+.search{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+ background-image: url(https://p.w3layouts.com/demos/variety/web/images/s-icon.png);
+ width: 50px;
+ height: 50px;
+}
+
+.view-more{
+    position: relative;
+     left: 35%;
+     top: 100%;
+   padding: 15px 90px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+   background-color: #e95c4c;
+   color: #fff;
+}
+.view-more:hover{
+    background-color: #fff;
+    color: #e95c4c;
+    border: 2px solid #e95c4c; 
+    transition: 0.5s all cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+.bottom-menu{
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    margin-top: 87%;
+}
+.under-icons2{
+    height: 1px;
+    background-color: rgb(83, 75, 75);
+    color: rgb(83, 75, 75);
+    margin-left: 22%;
+    margin-right: 20%; 
+ }
+ .contact{
+   height: 600px;
+   margin-left: 20%;
+   margin-right: 20%;  
+ }
+.name{
+width: 350px;
+margin-left: 12.5%;
+float: left;
+}
+.mail{
+width: 350px;  
+margin-right: 20.5%;    
+float: right;
+}
+
+.send{
+    position: relative;
+    top: 50px;
+    left: 33%;
+   padding: 20px 120px;
+   color:white;
+   background-color: #E74C3C;
+   border: 1px solid  #E74C3C; 
+   border-radius: 0.3em;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 25px;
+}
+.send:hover{
+    background-color: #882020;
+    border: 1px solid  #882020;
+    transition: 0.5s all ease;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height:8cm;
+}
+.redback{
+    width: 100%;
+    height: 6cm;
+    background-color:#E74C3C;
+}
+.footer-text{
+    padding-top: 8%;
+    padding-left:33%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.footer-link{
+    position: absolute;
+    top:50.3%;
+    padding-left: 61%;
+    color: #882020;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+}
+.footer-link:hover{
+    color: white;
+    transition: 0.5s all cubic-bezier(0.39, 0.575, 0.565, 1)
+}
+.footer-img{
+    position: absolute;
+    bottom: 80%;
+    left: 25%;  
+}
+.footer-img1{
+    position: absolute;
+    bottom: 80%;
+    left: 45%;  
+}
+.footer-img2{
+    position: absolute;
+    bottom: 80%;
+    left: 65%;  
+}
+.go-top{
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    bottom: 23px;
+    right: 0.5%;
+    background-image: url(https://p.w3layouts.com/demos/variety/web/images/arrow_up.png);
+    background-color: unset;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
